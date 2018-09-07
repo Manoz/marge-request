@@ -1,0 +1,14 @@
+{
+  "extBetaName": {
+    "message": "Marge Request Beta"
+  },
+  "extDescription": {
+    "message": "Cette extention ajoute Marge Simpson sur Gitlab. Ouaip."
+  },
+  "extName": {
+    "message": "Marge Request"
+  },
+  "extNightlyName": {
+    "message": "Marge Request Nightly"
+  }
+}

@@ -1,0 +1,17 @@
+.shortcuts-merge_requests span {
+  display: none;
+}
+
+.shortcuts-merge_requests::after {
+  content: 'Marge Requests';
+}
+
+.shortcuts-merge_requests .fa-tasks:before {
+  content: '' !important;
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  background-image: url('//svgshare.com/i/8CZ.svg') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
