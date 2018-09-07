@@ -1,12 +1,9 @@
-## Cookies F*cker
+## Marge Request
 
-This extension hide the `accept cookies?` popup when you visit a website.
-Because of course, you always accept cookies.
-
-Keep in mind that this extension does not accept cookies for you. It just hides a sh*t tons on `css` rules.
+Adds an Marge Simpson icon before the "merge request" button in Gitlab. Also change "Merge Request" to "Marge Request". For fun.
 
 ### Install
 
-* https://chrome.google.com/webstore/detail/cookies-blocker/dafambnlnkbfdkieoeaccchlmahiolof
+https://chrome.google.com/webstore/detail/marge-request/knfafakbfanlemnjfhmhhpdolnbnhnph/related?hl=fr&authuser=1
 
 The extension is loaded, you can enjoy your new life.
