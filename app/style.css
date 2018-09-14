@@ -15,3 +15,73 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+body[data-page="projects:merge_requests:index"] h1.title a:last-child,
+body[data-page="projects:merge_requests:index"] .btn-new,
+body[data-page="projects:merge_requests:show"] h1.title a:last-child,
+body[data-page="projects:merge_requests:show"] .accept_merge_request,
+body[data-page="projects:merge_requests:show"] .close-mr-link,
+body[data-page="projects:merge_requests:index"] .issues-state-filters li:nth-child(2) a span:first-child {
+  position: relative;
+  visibility: hidden;
+}
+
+body[data-page="projects:merge_requests:index"] h1.title a:last-child::after,
+body[data-page="projects:merge_requests:index"] .btn-new::after,
+body[data-page="projects:merge_requests:show"] h1.title a:last-child::after,
+body[data-page="projects:merge_requests:show"] .accept_merge_request::after,
+body[data-page="projects:merge_requests:show"] .close-mr-link::after,
+body[data-page="projects:merge_requests:index"] .issues-state-filters li:nth-child(2) a span:first-child::after {
+  content: 'Marge Requests';
+  display: inline-block;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 4px;
+  left: 0;
+  line-height: 1;
+  visibility: visible;
+}
+
+body[data-page="projects:merge_requests:index"] .issues-state-filters li:nth-child(2) a span:first-child::after {
+  content: 'Marged';
+}
+
+body[data-page="projects:merge_requests:index"] .btn-new .fa {
+  visibility: visible;
+}
+
+body[data-page="projects:merge_requests:index"] .btn-new::after,
+body[data-page="projects:merge_requests:show"] .close-mr-link::after,
+body[data-page="projects:merge_requests:show"] .accept_merge_request::after {
+  content: 'New Marge Request';
+  background-color: #38ae67;
+  border-color: #2faa60;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 10px;
+  top: 0 !important;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body[data-page="projects:merge_requests:show"] .close-mr-link::after {
+  content: 'Close marge request' !important;
+  background-color: rgba(252,109,38,0.8);
+  border-color: #fc6d26;
+}
+
+body[data-page="projects:merge_requests:show"] .accept_merge_request::after {
+  content: 'Accept Marge Request' !important;
+}
