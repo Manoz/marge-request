@@ -18,7 +18,10 @@
     "default_title": "Marge Request"
   },
   "content_scripts": [{
-    "matches": ["http://gitlab.lyon.novius.fr/*/*"],
+    "matches": [
+      "http://gitlab.lyon.novius.fr/*/*",
+      "https://gitlab.lyon.novius.fr/*/*"
+    ],
     "css" : ["style.css"]
   }],
   "icons": {
